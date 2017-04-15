@@ -16,6 +16,7 @@ func main() {
 	}
 }
 
+// run ...
 func run() error {
 	err := sdl.Init(sdl.INIT_EVERYTHING)
 	if err != nil {
